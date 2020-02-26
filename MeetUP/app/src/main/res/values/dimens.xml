@@ -1,0 +1,12 @@
+<resources>
+    <!-- Login Activity -->
+    <dimen name="la_layout_padding">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <!-- Event detail activity -->
+    <dimen name="fab_event_margin">60dp</dimen>
+</resources>

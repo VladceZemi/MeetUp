@@ -1,0 +1,114 @@
+{
+  "v1" : {
+    // Additional info about user registered using firebase auth
+    "users" : {
+      "firebaseUserID" : {
+        "email" : "pert@centrum.cz",
+        "name" : "Petr",
+        "phone" : "777562123",
+        "position" : {
+          "latitude": 15.036523,
+          "longitude": 49.52423
+      }
+      },
+      "firebaseUserID" : {
+        "email" : "karel@gmail.com",
+        "name" : "Karel",
+        "phone" : "737111222",
+        "position" : {
+          "latitude": 15.036523,
+          "longitude": 49.52423
+      }
+      },
+      "firebaseUserID" : {
+        "email" : "pavel@seznam.cz",
+        "name" : "Pavel",
+        "phone" : "556123456",
+        "position" : {
+          "latitude": 15.036523,
+          "longitude": 49.52423
+      }
+      }
+    },
+    // Users friends lists
+    "friends" : {
+      "firebaseUserID" : {
+        "firebaseUserID" : "Pavel",
+        "firebaseUserID" : "Petr"
+      }
+    },
+    // Events for meetups
+    // Attributes fill in gradually as users match preferences over time
+    "events" : {
+      "firebaseEventID" : {
+        "name" : "Pívo s kamarády",
+        "nameposition" : "Pivnice u Sedláka",
+        "position" : {
+            "latitude": 15.432423,
+            "longitude": 49.32423
+        },
+        "time" : "18:30",
+        "type" : "pub"
+      },
+      "firebaseEventID" : {
+        "name" : "Sraz po 20. letech",
+        "nameposition" : "K1, Židenice",
+        "position" : {
+            "latitude": 15.036523,
+            "longitude": 49.52423
+        },
+        "time" : "20:00",
+        "type" : "restaurant"
+      }
+    },
+    // Users participation in events
+    "userEvents" : {
+      "firebaseUserID" : {
+        "firebaseEventID": "Sraz po 20. letech",
+        "firebaseEventID" : "Pívo s kamarády"
+      }
+    },
+    // Users votes for position to meetup in event
+    "eventUserVotes" : {
+      "firebaseEventID" : {
+        "firebaseUserID" : {
+            "latitude": 15.432423,
+            "longitude": 49.32423
+        },
+        "firebaseUserID" : {
+            "latitude": 15.432423,
+            "longitude": 49.32423
+        },
+        "firebaseUserID" : {
+            "latitude": 49.32423,
+            "longitude": 15.432423
+        }
+      }
+    },
+    // Users locations in event
+    "eventUserLocation" :{
+      "firebaseEventID" : {
+        "firebaseUserID" : {
+            "latitude": 49.32423,
+            "longitude": 15.432423
+        },
+        "firebaseUserID" : {
+            "latitude": 49.32423,
+            "longitude": 15.584612
+        },
+        "firebaseUserID" : {
+            "latitude": 49.32423,
+            "longitude": 15.325484
+        }
+      }
+    },
+    // List of users participating in event
+    "eventParticipants" : {
+      "firebaseEventID" : {
+        "firebaseUserID" : "Pavel",
+        "firebaseUserID" : "Karel",
+        "firebaseUserID" : "Petr"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/events"
+        android:title="@string/nav_events"
+        android:icon="@drawable/ic_event_black"
+        />
+
+    <item
+        android:id="@+id/contacts"
+        android:title="@string/nav_contacts"
+        android:icon="@drawable/ic_contacts_black"
+        />
+
+    <item
+        android:id="@+id/account"
+        android:title="@string/nav_account"
+        android:icon="@drawable/ic_account_circle_black"
+        />
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "39982456688",
+    "firebase_url": "https://meetup-1d542.firebaseio.com",
+    "project_id": "meetup-1d542",
+    "storage_bucket": "meetup-1d542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39982456688:android:ed7a17608adcc1f06df9b5",
+        "android_client_info": {
+          "package_name": "cz.brno.mendelu.meetup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39982456688-n4jli3hi5n7simt5vtujpgp16d9q9mlc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cz.brno.mendelu.meetup",
+            "certificate_hash": "faad020e7aa0287a4c19523f255f50e68c461a4a"
+          }
+        },
+        {
+          "client_id": "39982456688-h6608tvgte3gn2631lhvmj90a81odtmi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM0n_cRkeZLZthIT5AqS-fAmlEFGE-tIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39982456688-h6608tvgte3gn2631lhvmj90a81odtmi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

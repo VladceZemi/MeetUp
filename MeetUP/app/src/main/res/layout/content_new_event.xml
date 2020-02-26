@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fontFamily="@font/roboto"
+    android:gravity="top"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:yearListSelectorColor="@color/colorPrimary"
+    tools:context=".activities.events.NewEventActivity"
+    tools:showIn="@layout/activity_new_event"
+    >
+
+    <TextView
+        android:id="@+id/date_new_event_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/title_activity_newEvent"
+        android:textSize="40dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/form_name_event"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/nameNewEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="16dp"
+        android:importantForAutofill="no"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/form_date_event"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/datumNewEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:focusableInTouchMode="false"
+        style="@android:style/Widget.EditText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/time_new_event_label"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/timeNewEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:focusableInTouchMode="false"
+        style="@android:style/Widget.EditText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/form_newEventRecycleViewLabel"
+        android:textSize="24dp"
+        android:textColor="@android:color/black"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contacts_list"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="4dp"
+        tools:listitem="@layout/item_user"
+        android:overScrollMode="never"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

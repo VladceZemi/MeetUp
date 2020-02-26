@@ -1,0 +1,108 @@
+<resources>
+    <!--General strings-->
+    <string name="app_name">MeetUp</string>
+
+    <!--Intent extras keys-->
+    <string name="ex_latitude">latitude</string>
+    <string name="ex_longitude">longitude</string>
+    <string name="new_event_name">newEventName</string>
+    <string name="new_event_date">newEventDate</string>
+    <string name="new_event_time">newEventTime</string>
+    <string name="new_event_users">newEventUsers</string>
+
+    <!--API strings-->
+    <string name="google_maps_key">AIzaSyD5aaNqfvDfc6IClb7YybVBzSgKqdGVf8A</string>
+
+    <!--Firebase strings-->
+    <string name="database_address">"https://meetup-1d542.firebaseio.com/"</string>
+    <string name="database_version">final</string>
+    <string name="table_users">users</string>
+    <string name="table_events">events</string>
+    <string name="table_friends">friends</string>
+    <string name="table_user_events">userEvents</string>
+    <string name="table_user_emails">userEmails</string>
+    <string name="attribute_user_position">position</string>
+    <string name="attribute_event_user_location">usersLocation</string>
+
+    <!--Font definitions-->
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+    <string name="font_family_regular">sans-serif</string>
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_black">sans-serif-black</string>
+    <string name="font_family_thin">sans-serif-thin</string>
+
+    <!--Validation messages-->
+    <string name="field_empty">Toto pole je povinné</string>
+    <string name="field_bad_email">Špatný formát e-mailové adresy</string>
+    <string name="field_bad_phone">Špatný formát telefonního čísla</string>
+    <string name="field_bad_password">Heslo musí mít alespoň 6 znaků</string>
+
+    <!--Registration strings-->
+    <string name="title_activity_registration">Registrace</string>
+    <string name="register_button_text">Registrovat</string>
+    <string name="form_name">Jméno a příjmení</string>
+    <string name="form_number">Telefonní číslo</string>
+    <string name="form_email">E-mail</string>
+    <string name="form_password">Heslo</string>
+    <string name="register_successful">Registrace úspěšná</string>
+
+    <!--New event strings-->
+    <string name="title_activity_newEvent">Nová událost</string>
+    <string name="form_name_event">Název události</string>
+    <string name="form_date_event">Datum konání</string>
+    <string name="form_newEventRecycleViewLabel">Účastníci</string>
+    <string name="new_event_successful">Nová událost založena</string>
+    <string name="new_event_bad_inputs">Vyplňte povinné pole</string>
+    <string name="time_pattern">HH:mm</string>
+    <string name="date_format">dd.MM.yyyy</string>
+    <string name="type_not_selected_error_mesage">Není vybrán typ akce!</string>
+    <string name="time_new_event_label">Čas konání akce</string>
+    <string name="new_event_contacts_list_error">Error while getting contacts list</string>
+
+    <!-- New Event Type strings-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new_event">NewEventActivity</string>
+    <string name="calendar_picker_button">CalendarPickerButton</string>
+    <string name="new_type_selected">Typ vybrán</string>
+    <string name="event_type_one">pub</string>
+    <string name="event_type_two">restaurant</string>
+    <string name="event_type_three">cafe</string>
+    <string name="event_type_text_one">PUB</string>
+    <string name="event_type_text_two">RESTAURACE</string>
+    <string name="event_type_text_three">CAFE</string>
+
+    <!--Main string-->
+    <string name="nav_events">Události</string>
+    <string name="nav_contacts">Kontakty</string>
+    <string name="nav_account">Můj účet</string>
+
+    <!--Contacts fragment strings-->
+    <string name="cons_error">Nepodařilo se načíst kontakty</string>
+
+    <!--Add contact dialog string-->
+    <string name="add_con_title">Přidat kontakt</string>
+
+    <!--Contacts fragment strings-->
+    <string name="evts_error">Nepodařilo se načíst události</string>
+    <string name="title_activity_event_type_select">eventTypeSelectActivity</string>
+    <string name="title_activity_new_event_type">NewEventType</string>
+    <string name="type_event">Typ podniku</string>
+
+
+    <!--Account strings-->
+    <string name="account_title">Můj účet</string>
+    <string name="account_name">Jméno</string>
+    <string name="account_phone">Telefon</string>
+    <string name="account_address_default">Výchozí adresa</string>
+    <string name="account_saved">Údaje úspěšně uloženy</string>
+    <string name="account_position_saved">"Výchozí adresa úspěšně nastavena</string>
+    <string name="account_position_cancelled">"Výběr polohy zrušen"</string>
+    <string name="account_error">"Nepodařilo se načíst osobní údaje"</string>
+    <string name="contact_email_input_hint">Email kontaktu</string>
+    <string name="title_activity_event_detail">EventDetailActivity</string>
+    <string name="loading_dialog_text">Probíhá hledání podniků...</string>
+    <string name="nothing_found_dialog_text">Nebyly nalezeny žádné podniky</string>
+
+
+</resources>
