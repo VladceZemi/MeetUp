@@ -1,13 +1,15 @@
 MeetUp
 ====== 
 
-MeetUp je jednoduchá aplikace vytvořená v rámci školního projektu, která slouží lidem pro plánování schůzek. 
-Po registraci, uživatel zadá své kontakty a již může plánovat svoje události. 
-Po vytvoření události a přidání účastníků, se nová událost zobrazí účastníkům v seznamu událostí.
+MeetUp is a simple app created as part of a school project for people to schedule meetings.
+After registration, the user enters his contacts and can already plan his events.
+After creating an event and adding participants, the new event will be displayed to the participants in the event list.
 
 ---
 
-Aplikace využívá lokalizačních dat uživatele, a NoSQL databáze pro ukládání údajů o uživatelích a informacích o událostech.
+
+NoSQL database is used to store user data and event information.
+
 
 ---
 
